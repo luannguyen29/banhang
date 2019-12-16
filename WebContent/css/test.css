@@ -1,0 +1,60 @@
+/*! CSS Used from: file:///C:/Users/lekha/Downloads/Mua%20S%C3%A1ch%20Tr%E1%BB%B1c%20Tuy%E1%BA%BFn%20Gi%E1%BA%A3m%20Gi%C3%A1%20T%E1%BB%91t%20Nh%E1%BA%A5t%20_%20Nh%C3%A0%20S%C3%A1ch%20Online%20Tiki.vn_files/category.css */
+@media print {
+	*, :after, :before {
+		background: 0 0 !important;
+		color: #000 !important;
+		-webkit-box-shadow: none !important;
+		box-shadow: none !important;
+		text-shadow: none !important;
+	}
+}
+
+*, :after, :before {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.text-center {
+	text-align: center;
+}
+
+::-moz-placeholder {
+	text-overflow: ellipsis;
+}
+
+.product-item.flash-sale {
+	width: 25% !important;
+	display: inline-block !important;
+}
+
+.product-item.flash-sale:hover {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.product-item {
+	display: block;
+	padding: 0 0 25px;
+	border: 1px solid transparent;
+	position: relative;
+	width: 248px;
+	max-width: 100%;
+}
+
+.product-item:hover {
+	-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+	box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+}
+
+.tiki-categories .wrap .product-box .product-box-list>.product-item {
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;
+}
+
+@media ( min-width :1200px) {
+	.tiki-categories .wrap .product-box .product-box-list>.product-item {
+		width: 25%;
+	}
+}
